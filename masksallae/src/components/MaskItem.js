@@ -22,7 +22,7 @@ function MaskItem() {
                 <MaskList 
                     key = {index}
                     addr = {mask.addr}
-                    code = {mask.code}
+                    code = {mask.code}ㅇ
                     create_at = {mask.create_at}
                     lat = {mask.lat}
                     lng = {mask.lng}
