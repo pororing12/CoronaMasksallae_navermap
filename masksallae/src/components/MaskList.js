@@ -44,7 +44,7 @@ function MaskList({
 }) {
     return (
         <RenderAfterNavermapsLoaded
-          ncpClientId={"2cqefuybui"}
+          ncpClientId={"안알려줌"}
           error={<p>Maps Load Error</p>}
           loading={<p>Maps Loading...</p>}
         >
