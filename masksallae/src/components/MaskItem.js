@@ -18,20 +18,7 @@ function MaskItem() {
     }, [])
     return (
         <div>
-            {masks.map((mask, index)=> (
-                <MaskList 
-                    key = {index}
-                    addr = {mask.addr}
-                    code = {mask.code}ㅇ
-                    create_at = {mask.create_at}
-                    lat = {mask.lat}
-                    lng = {mask.lng}
-                    name = {mask.name}
-                    remain_stat = {mask.remain_stat}
-                    stock_at = {mask.stock_at}
-                    type = {mask.type}
-                />
-            ))}
+            <MaskList mask = {masks}/>
         </div>
     )
 }
